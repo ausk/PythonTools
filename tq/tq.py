@@ -6,7 +6,8 @@ import os, sys, re, json
 
 ## 初始化 ...
 os.chdir(os.path.abspath(os.path.dirname(__file__)))
-from data import data
+#from data import data
+#from data_all import data
 cities = data["cities"]
 codes  = data["codes"]
 
