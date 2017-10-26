@@ -6,7 +6,7 @@ import socket
 import os,sys,re
 from urllib import request,parse
 
-socket.setdefaulttimeout(2) # 超时 5s
+socket.setdefaulttimeout(5) # 超时 5s
 
 def fy(queryword):
     url = 'http://dict.youdao.com/fsearch?q={}'.format(parse.quote(queryword))
