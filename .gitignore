@@ -5,6 +5,8 @@
 *.log
 test.*
 
+test/
+test[0-9]/
 **/_bak
 doc/*
 
