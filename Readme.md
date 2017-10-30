@@ -35,7 +35,7 @@ Web translation:
 ...
 ```
 
-### 3. myterminal (控制台)
+### 3. py03_terminal (控制台)
 ```sh
 $ python3 xpython.py
 ...
